@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     //Check if the user is already registered
     callWebhook(
-      "https://hook.eu1.make.com/5s6ln7rm77vnkoem2nul2tymcife2o35",
+      "https://hook.eu1.make.com/23d4mnrxqmowuvvgr2t7vgg0o4a12d4i",
       payload
     )
       .then((data) => {
@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             console.log({ pid, cardLink });
             const hookPayload = { ...payload, pid, cardLink };
             addUser(
-              "https://hook.eu1.make.com/wn1tp3bz7yr5hsm1chur7o28z22br6lj",
+              "https://hook.eu1.make.com/5mdyueogdcpu267kg9975tolcwruv3fx",
               hookPayload
             ).then((data) => {
               console.log(data);
